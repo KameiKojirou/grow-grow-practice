@@ -11,6 +11,5 @@ config_version=5
 [application]
 
 config/name="grow-grow-practice"
-run/main_scene="res://main.tscn"
 run/main_loop_type="GoMainLoop"
 config/features=PackedStringArray("4.4")

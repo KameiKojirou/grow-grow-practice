@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dw241bc5iy65l"]
+
+[node name="InputExample" type="InputExample"]
+
+[node name="MyLabel" type="Label" parent="."]
+offset_left = 295.0
+offset_top = 244.0
+offset_right = 376.0
+offset_bottom = 267.0
+
+[node name="MyButton" type="Button" parent="."]
+offset_left = 523.0
+offset_top = 293.0
+offset_right = 560.0
+offset_bottom = 331.0
+text = "Click"
+
+[node name="MyInput" type="LineEdit" parent="."]
+offset_left = 287.0
+offset_top = 296.0
+offset_right = 511.0
+offset_bottom = 328.0

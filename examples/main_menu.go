@@ -15,14 +15,21 @@ type MainMenu struct {
 	classdb.Extension[MainMenu, Node.Instance] `gd:"MainMenu"`
 	MyMenuLabel                                Label.Instance
 	MyInputExampleButton                       Button.Instance
+	MyCreateChildrenExampleButton              Button.Instance
 }
 
 func (m *MainMenu) Ready() {
 	m.MyMenuLabel.AsLabel().SetText("Grow Examples")
 	m.MyInputExampleButton.AsBaseButton().OnPressed(m.OnPressed)
+	m.MyCreateChildrenExampleButton.AsBaseButton().OnPressed(m.OnPressedcc)
 }
 
 func (m *MainMenu) OnPressed() {
 	var tree SceneTree.Instance = m.Super().GetTree()
 	tree.ChangeSceneToFile("res://input_example.tscn")
+}
+
+func (m *MainMenu) OnPressedcc() {
+	var tree SceneTree.Instance = m.Super().GetTree()
+	tree.ChangeSceneToFile("res://create_children_example.tscn")
 }

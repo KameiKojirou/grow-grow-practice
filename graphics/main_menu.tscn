@@ -15,3 +15,10 @@ offset_top = 41.0
 offset_right = 158.0
 offset_bottom = 64.0
 text = "Grow Examples"
+
+[node name="MyCreateChildrenExampleButton" type="Button" parent="."]
+offset_left = 40.0
+offset_top = 139.0
+offset_right = 239.0
+offset_bottom = 170.0
+text = "Create Children Example"

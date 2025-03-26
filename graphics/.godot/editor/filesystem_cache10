@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742882035
-export_presets.cfg::TextFile/TextFile::-1::1742851175::0::1::::<><><>0<>0<><>::
-input_example.tscn::PackedScene::8760962090895076867::1742881824::0::1::::<><><>0<>0<><>::
-library.gdextension::GDExtension::1701114578502547816::1742882030::0::1::::<><><>0<>0<><>::
+::res://::1742963100
+create_children_example.tscn::PackedScene::7514382151617806270::1742963079::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1742960097::0::1::::<><><>0<>0<><>::
+input_example.tscn::PackedScene/PackedScene::8760962090895076867::1742963037::0::1::::<><><>0<>0<><>::
+library.gdextension::GDExtension::1701114578502547816::1742963095::0::1::::<><><>0<>0<><>::
 main.tscn::PackedScene/PackedScene::3243881490961545508::1742881644::0::1::::<><><>0<>0<><>::
-main_menu.tscn::PackedScene::198579161843903092::1742881850::0::1::::<><><>0<>0<><>::
+main_menu.tscn::PackedScene/PackedScene::198579161843903092::1742963037::0::1::::<><><>0<>0<><>::
